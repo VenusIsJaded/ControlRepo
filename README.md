@@ -1,8 +1,8 @@
 # ControlRepo
 
-Version metadata consumed by **Surge Manager**.
+ControlRepo stores version metadata used by **Surge Manager**.
 
-## `control.json`
+## Format
 
 ```json
 [
@@ -13,5 +13,13 @@ Version metadata consumed by **Surge Manager**.
 ]
 ```
 
-- `discord`: Discord RNA version code Surge Manager should prefer.
-- `surge`: Surge/SurgeCord metadata version marker.
+## Fields
+
+- `discord` — Discord RNA version code Surge Manager should prefer.
+- `surge` — SurgeCord metadata version marker.
+
+## Related repositories
+
+- [`Surge`](https://github.com/VenusIsJaded/Surge)
+- [`SurgeManager`](https://github.com/VenusIsJaded/SurgeManager)
+- [`SurgeXposed`](https://github.com/VenusIsJaded/SurgeXposed)
